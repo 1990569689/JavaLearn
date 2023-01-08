@@ -15,7 +15,7 @@ public class DirList {
                     System.out.println(list[i] + "是目录");
                 } else {
                     String type = list[i].substring(list[i].indexOf(".") + 1);
-、
+
 
 
 
