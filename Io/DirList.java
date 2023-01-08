@@ -16,11 +16,8 @@ public class DirList {
                 } else {
                     String type = list[i].substring(list[i].indexOf(".") + 1);
 
-
-
-
                     System.out.println(type);
-                    System.out.println(list[i] + "是文件");
+                    System.out.println(list[i] + "是"+type+"文件");
 
                 }
 

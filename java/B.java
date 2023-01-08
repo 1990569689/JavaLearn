@@ -1,5 +1,5 @@
 public class B {
-
+    //声明类变量
     public static int page = 100;
     public static int book = 2400;
 
