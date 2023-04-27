@@ -16,7 +16,18 @@ public abstract class L {
      * 
      * 5. 抽象类的子类必须给出抽象类中的抽象方法的具体实现，除非该子类也是抽象类。
      */
-
+    /*
+     * 非访问修饰符
+     * 为了实现一些其他的功能，Java 也提供了许多非访问修饰符。
+     * 
+     * static 修饰符，用来修饰类方法和类变量。
+     * 
+     * final 修饰符，用来修饰类、方法和变量，final 修饰的类不能够被继承，修饰的方法不能被继承类重新定义，修饰的变量为常量，是不可修改的。
+     * 
+     * abstract 修饰符，用来创建抽象类和抽象方法。
+     * 
+     * synchronized 和 volatile 修饰符，主要用于线程的编程。
+     */
     // 抽象方法
     public abstract void GetName(String name);
 
